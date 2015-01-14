@@ -6,7 +6,14 @@ This is for you if you ever need to download fonts & stylesheets Google Font for
 - [NodeJs](http://nodejs.org/)
 - [Grunt](http://gruntjs.com/)
 
-###
+###Installation
+```
+git clone git@github.com:khoama/Google-Fonts-Offline.git
+
+cd Google-Fonts-Offline
+
+npm install
+```
 
 ###Usage:
 Add your desired fonts to Gruntfile.js
