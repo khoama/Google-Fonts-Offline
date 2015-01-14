@@ -8,6 +8,8 @@ This is for you if you ever need to download fonts & stylesheets Google Font for
 
 ###Installation
 ```
+npm install -g grunt-cli
+
 git clone git@github.com:khoama/Google-Fonts-Offline.git
 
 cd Google-Fonts-Offline
