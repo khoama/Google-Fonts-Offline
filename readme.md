@@ -1,8 +1,30 @@
-This is for you ff you ever need to download Google Font for offline use (sites without internet access)
+#Google Fonts Offline
 
-Usage:
+This is for you if you ever need to download fonts & stylesheets Google Font for offline use (sites without internet access)
+
+###Requirements:
+- [NodeJs](http://nodejs.org/)
+- [Grunt](http://gruntjs.com/)
+
+###
+
+###Usage:
+Add your desired fonts to Gruntfile.js
+
 ```
-grunt local-googlefont:lato
-grunt local-googlefont:source_sans_pro
+source_sans_pro: {
+	options: {
+		family: "Source Sans Pro", 
+		sizes: [
+			400,700
+		],
+		cssDestination: "./downloads/styles/source_sans_pro/",
+		fontDestination: "./downloads/fonts/source_sans_pro/"
+	}
+}
+```
+To download fonts and stylesheets:
 
+```
+grunt local-googlefont:source_sans_pro
 ```
